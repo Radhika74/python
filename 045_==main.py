@@ -1,0 +1,2 @@
+import Myfirst
+Myfirst.welcome()
