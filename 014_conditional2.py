@@ -4,10 +4,10 @@ if (a>18):
 else:
   print("You cannot drive")
   print("not permitted ")
-print("yay!!\n")   #example of indentation 
+print("yay!!\n")   #example of indentation
 
 #another 
-print("another example")
+print("another example Of Loops")
 applePrice=210
 budget=200
 if(applePrice<=budget):
