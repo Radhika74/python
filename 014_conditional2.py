@@ -1,9 +1,9 @@
 a=int(input("Enter age:"))
 if (a>18):
-  print("You can drive")
+   print("You can drive")
 else:
-  print("You cannot drive")
-  print("not permitted ")
+   print("You cannot drive")
+   print("not permitted ")
 print("yay!!\n")   #example of indentation
 
 #another 
@@ -11,9 +11,9 @@ print("another example Of Loops")
 applePrice=210
 budget=200
 if(applePrice<=budget):
-  print("Alexa, add 1 kg Apples to the cart.")
+   print("Alexa, add 1 kg Apples to the cart.")
 else:
-  print("Alexa, do not add Apples to the cart.\n")
+   print("Alexa, do not add Apples to the cart.\n")
 
 #use of elif
 print("use of if elif else")
@@ -39,4 +39,4 @@ elif(num>0):
    else:
       print(num,"is greater than 20")
 else:
-  print("number is zero\n")
+   print("number is zero\n")
