@@ -45,11 +45,6 @@ print("Explicit conversion: string to int")
 print(int(float(b1)))  # Convert string to float first, then to int
 print("Value of b1 after explicit typecasting:", type(int(float(b1))))
 
-# Convert int to float
-print("Explicit conversion: int to float")
-print(float(a1))
-print("Value of a1 after explicit typecasting:", type(float(a1)))
-
 # Convert float to string
 print("Explicit conversion: float to string")
 print(str(b1))
