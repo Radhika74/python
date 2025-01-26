@@ -17,7 +17,6 @@ print("Binary NOT of",b,"is",~b)
 print("Binary Left Shift of",a,"is",b<<a)
 print("Binary Right Shift of",a,"is",b>>a)
 print("Binary Right Shift of",b,"is",a>>b)
-print("Binary Right Shift of",a,"is",a>>b)
 #using assignment operators
 a+=5
 print("a after increment:",a)
