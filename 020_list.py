@@ -12,19 +12,19 @@ print(list1[5-2])
 print(list1[3])
 
 #jump index
-'''print("Jump index example ")
+print("Jump index example ")
 print("original list",list1)
 print("No values" ,list1[:])
 print("left value assign",list[1:])
 print("right value assign",list1[:5])
 print("Two value are given",list1[1:5])
 print("three values are given",list[1:6:2])
-print("negative index",list1[1:4:-2])'''
+print("negative index",list1[1:4:-2])
 
 
-#僥 [giu]僥  list1 is assigned a list of numbers from 1 to 6
+#list1 is assigned a list of numbers from 1 to 6
 list1 = [1, 2, 3, 4, 5, 6]
-#僥 [giu]僥  list2 is assigned a list of numbers from 7 to 10
+# list2 is assigned a list of numbers from 7 to 10
 list2 = [7, 8, 9, 10]
 
 # Print the elements of list1 and list2 on separate lines
