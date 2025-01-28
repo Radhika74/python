@@ -50,6 +50,3 @@ print(d.keys())
 
 # Getting all values
 print(d.values())
-
-# Getting all key-value pairs
-print(d.items())
