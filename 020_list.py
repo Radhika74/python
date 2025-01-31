@@ -59,8 +59,8 @@ print("No values", list1[:])
 # print("left value assign", list[1:])  # This line is incorrect
 
 # Accessing element at index 5 (which is 6)  out of bounds will cause an error 
-print("right value assign", list1[5]) 
-# This line causes an error 
+print("right value assign", list1[5])
+# This line causes an error
 
 # Print a slice of list1 containing elements from index 1 (inclusive) to 5 (exclusive) 
 print("Two value are given", list1[1:5])
