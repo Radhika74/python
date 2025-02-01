@@ -22,6 +22,6 @@ print(obj.name)
 print(obj1._Student__name1)
 #access protected data member
 # calling by object of Student class
-print(obj._name2)      
-print(obj._funName()) 
+print(obj._name2)
+print(obj._funName())
 print(obj.__dir__())

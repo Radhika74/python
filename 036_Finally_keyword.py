@@ -6,11 +6,11 @@ def func1():
       print(l[i])
       return 1
    except:
-    print("some error occurred)")
-    return 0
-     
+      print("some error occurred)")
+      return 0
+   
    finally:
-    print("I am always executed")
+      print("I am always executed")
 
 
 x = func1()

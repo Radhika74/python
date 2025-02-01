@@ -4,7 +4,7 @@ print(f"Multiplication table of{a} is:)")
 if we give any string value it will give error and stop the program 
 so exception handling is used to handle the program without crushing '''
 try:
-     for i in range(1,11):
+      for i in range(1,11):
         print(f"{int(a)} X {i} = {int(a)*i}")
 except Exception as e:
   print(e)
