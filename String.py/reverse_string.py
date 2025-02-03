@@ -3,7 +3,6 @@ def reverse_string(str):
     for char in str:
         reverse = char + reverse
     return reverse
- 
 str = input("Enter your string: ")
 result = reverse_string(str)
 print(result)
