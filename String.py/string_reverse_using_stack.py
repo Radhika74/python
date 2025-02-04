@@ -11,7 +11,7 @@ def reverse_stack(str):
         last = stack.pop()
         rev = rev + last
         # print(last, rev)
-       
+
     return rev
 usr_str = input('What is your string:')
 reverse = reverse_stack(usr_str)

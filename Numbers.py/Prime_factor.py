@@ -8,7 +8,7 @@ def get_prime_factors(n):
         else:
             divisor = divisor + 1
     return factors
- 
+
 num = int(input('Enter your number: '))
 factors = get_prime_factors(num)
 print(factors)

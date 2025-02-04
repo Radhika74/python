@@ -5,7 +5,7 @@ def reverse_num(num):
         reverse = reverse*10 + last_digit
         num = num//10
     return reverse
- 
+
 n=int(input("Enter number: "))
 reverse = reverse_num(n)
 print("Reverse of the number:",reverse)

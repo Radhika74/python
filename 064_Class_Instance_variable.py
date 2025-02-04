@@ -3,7 +3,7 @@ class Employee:
     company = "Google"
     def __init__(self,name):
       #instance variable
-      self.name = name 
+      self.name = name
       self.raise_amount = 0.02
     def showDetails(self):
       print(f"The name of the employee is {self.name} and the company is {self.company}")
