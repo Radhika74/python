@@ -1,5 +1,5 @@
 list=[123,56,77,23,98,9,77]
-#to find smallest element 
+#to find smallest element
 num=list[0]
 for i in list:
     if i<num:
@@ -8,4 +8,3 @@ for i in list:
         pass
 
 print(num)
-  
