@@ -8,6 +8,6 @@ def find_frequency(arr):
             freq_dict[num] = 1
     return freq_dict
 
-arr =input([])
+arr=input()
 freq_dict = find_frequency(arr)
 print(freq_dict)
