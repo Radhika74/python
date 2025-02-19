@@ -5,6 +5,7 @@ def compute_gcd(x, y):
         if((x % i == 0) and (y % i == 0)):
             gcd = i
     return gcd
+
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 gcd = compute_gcd(num1, num2)
