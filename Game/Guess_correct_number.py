@@ -14,5 +14,5 @@ while True:
         print('Your new score:', score)
     else:
         print('Your guess did not match')
-        print('The number was:', num)
+        print('The number :', num)
         

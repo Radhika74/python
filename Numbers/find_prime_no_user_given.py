@@ -3,7 +3,7 @@ def is_prime(num):
         if (num % i) == 0:
             return False
         return True
-        
+    
 def all_primes(num):
     primes = []
     for n in range(2,num+1):
