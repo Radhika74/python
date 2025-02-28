@@ -9,7 +9,7 @@ def get_winner(p1, p2):
         return'Second player wins!'
     elif p1 == 'scissors' and p2 == 'rock':
         return'Second player wins!'
-    elif p1 == 'scissors' and p2 == 'paper':
+    elif p1 == 'scissors' and p2 =='paper':
         return 'First player wins!'
     else:
         return 'Tie'
