@@ -13,6 +13,7 @@ def get_winner(p1, p2):
         return 'First player wins!'
     else:
         return 'Tie'
+        
 player1 = input('First player: rock, paper or scissors: ')
 player2 = input('Second Player: rock, paper or scissors: ')
 print(get_winner(player1, player2))
