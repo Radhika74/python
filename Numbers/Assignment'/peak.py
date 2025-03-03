@@ -14,7 +14,4 @@ def find_peak(arr):
 
 arr = [1,3,20,4,1,0]
 peak = find_peak(arr)
-if peak is not None:
-    print("Peak element is", peak)
-else:
-    print("No peak element found")
+print(peak)
