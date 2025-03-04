@@ -12,6 +12,6 @@ def find_peak(arr):
             return arr[i]
     return None
 
-arr = [1,3,20,4,1,0]
+arr = [1,3,20,4,1,0,9]
 peak = find_peak(arr)
 print(peak)
