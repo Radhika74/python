@@ -7,5 +7,5 @@ class Solution:
         return result
     
 days = 100
-meetings = [[0,3],[5,10],[15,20]]
+meetings = [[0,30],[5,10],[15,20]]
 print(Solution().countDays(days, meetings))
