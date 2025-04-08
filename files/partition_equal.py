@@ -17,3 +17,7 @@ class Solution:
             possible_sums = next_sums
         
         return target in possible_sums
+
+solution = Solution()
+nums = [1, 5, 11, 5]
+print(solution.canPartition(nums))  # Output: True

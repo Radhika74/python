@@ -17,3 +17,4 @@ class Solution(object):
             res.append(nums[i])
             i = prev[i]
         return res
+    
