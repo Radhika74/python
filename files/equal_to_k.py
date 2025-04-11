@@ -7,3 +7,8 @@ class Solution:
             elif x > k:
                 st.add(x)
         return len(st)
+nums =[2,3,6,7,9,9,7]
+k = 5
+sol = Solution()
+result = sol.Operations(nums, k)
+print(result)
