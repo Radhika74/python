@@ -6,3 +6,10 @@ class Solution(object):
                 if nums[i] == nums[j] and (i * j) % k == 0:
                     pairs += 1
         return pairs
+#call fun
+
+nums = [1, 2,1,3,1,2,1,2,3,1,1,3, 3, 4, 5]
+k = 2
+sol = Solution()
+result = sol.countPairs(nums, k)
+print(result)
