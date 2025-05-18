@@ -5,7 +5,6 @@ class Solution:
         
         for char in s:
             cnt[ord(char) - ord('a')] += 1
-
         for _ in range(t):
             tmp = [0] * 26
             for i in range(26):
